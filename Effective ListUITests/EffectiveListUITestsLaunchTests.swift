@@ -1,5 +1,5 @@
 //
-//  Effective_ListUITestsLaunchTests.swift
+//  EffectiveListUITestsLaunchTests.swift
 //  Effective ListUITests
 //
 //  Created by Daniel Tvorun on 15/07/2025.
@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class Effective_ListUITestsLaunchTests: XCTestCase {
+final class EffectiveListUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

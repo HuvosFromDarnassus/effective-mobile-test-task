@@ -1,0 +1,17 @@
+output_dir: Effective List/Generated/
+
+strings:
+  inputs: Effective List/Resources/Localizations/en.lproj/Localizable.strings
+  outputs:
+    templateName: structured-swift5
+    output: Strings.swift
+    params:
+      enumName: Strings
+
+xcassets:
+  - inputs: Effective List/Resources/Colors.xcassets
+    outputs:
+      - templateName: swift5
+        output: Colors.swift
+        params:
+          enumName: Colors

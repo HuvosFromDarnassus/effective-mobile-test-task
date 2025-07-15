@@ -1,5 +1,5 @@
 //
-//  Effective_ListUITests.swift
+//  EffectiveListUITests.swift
 //  Effective ListUITests
 //
 //  Created by Daniel Tvorun on 15/07/2025.
@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class Effective_ListUITests: XCTestCase {
+final class EffectiveListUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
