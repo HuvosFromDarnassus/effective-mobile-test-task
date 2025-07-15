@@ -10,6 +10,28 @@ import Foundation
 // swiftlint:disable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:disable nesting type_body_length type_name vertical_whitespace_opening_braces
 internal enum Strings {
+  internal enum Common {
+    internal enum Button {
+      /// Назад
+      internal static let back = Strings.tr("Localizable", "common.button.back", fallback: "Назад")
+      /// Удалить
+      internal static let delete = Strings.tr("Localizable", "common.button.delete", fallback: "Удалить")
+      /// Редактировать
+      internal static let edit = Strings.tr("Localizable", "common.button.edit", fallback: "Редактировать")
+      /// Поделиться
+      internal static let share = Strings.tr("Localizable", "common.button.share", fallback: "Поделиться")
+    }
+  }
+  internal enum List {
+    /// Search
+    internal static let search = Strings.tr("Localizable", "list.search", fallback: "Search")
+    /// %@ задач
+    internal static func tasks(_ p1: Any) -> String {
+      return Strings.tr("Localizable", "list.tasks", String(describing: p1), fallback: "%@ задач")
+    }
+    /// Задачи
+    internal static let title = Strings.tr("Localizable", "list.title", fallback: "Задачи")
+  }
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:enable nesting type_body_length type_name vertical_whitespace_opening_braces

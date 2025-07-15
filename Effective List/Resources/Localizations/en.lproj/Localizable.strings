@@ -1,1 +1,12 @@
+// MARK: - Common
 
+"common.button.back" = "Назад";
+"common.button.edit" = "Редактировать";
+"common.button.share" = "Поделиться";
+"common.button.delete" = "Удалить";
+
+// MARK: - List
+
+"list.title" = "Задачи";
+"list.search" = "Search";
+"list.tasks" = "%@ задач";
